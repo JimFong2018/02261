@@ -9,7 +9,8 @@
     "deploy": "vercel"
   },
   "dependencies": {
-    "@lark-base-open/node-sdk": "latest"
+    "@lark-base-open/node-sdk": "latest",
+    "@lark-base-open/js-sdk": "latest"
   },
   "devDependencies": {
     "@lark-base-open/cli": "latest",

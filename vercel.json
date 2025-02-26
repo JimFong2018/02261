@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npx @lark-base-open/cli build",
+  "buildCommand": "base-cli bundle",
   "outputDirectory": "dist",
   "builds": [
     {

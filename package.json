@@ -1,6 +1,18 @@
 {
+  "name": "column-concat-plugin",
+  "version": "1.0.0",
+  "description": "飞书多维表格列拼接插件",
+  "main": "index.js",
   "scripts": {
+    "dev": "base-cli dev",
     "build": "base-cli build",
     "deploy": "vercel"
+  },
+  "dependencies": {
+    "@lark-base-open/node-sdk": "latest"
+  },
+  "devDependencies": {
+    "@lark-base-open/cli": "latest",
+    "typescript": "^4.9.0"
   }
 } 

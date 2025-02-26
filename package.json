@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx @lark-base-open/cli dev",
-    "build": "npx @lark-base-open/cli bundle --prod",
+    "build": "npx @lark-base-open/cli build",
     "deploy": "vercel"
   },
   "dependencies": {

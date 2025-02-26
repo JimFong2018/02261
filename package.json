@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "base-cli build",
+    "deploy": "vercel"
+  }
+} 

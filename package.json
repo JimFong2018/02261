@@ -4,8 +4,8 @@
   "description": "飞书多维表格列拼接插件",
   "main": "index.js",
   "scripts": {
-    "dev": "base-cli dev",
-    "build": "base-cli build",
+    "dev": "npx @lark-base-open/cli dev",
+    "build": "npx @lark-base-open/cli build",
     "deploy": "vercel"
   },
   "dependencies": {
@@ -14,6 +14,10 @@
   },
   "devDependencies": {
     "@lark-base-open/cli": "latest",
-    "typescript": "^4.9.0"
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.9.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 } 

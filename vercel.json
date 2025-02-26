@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "buildCommand": "base-cli bundle",
+  "buildCommand": "npx @lark-base-open/cli bundle --prod",
   "outputDirectory": "dist",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "dist",
+        "installCommand": "npm install"
       }
     }
   ],

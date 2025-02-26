@@ -13,7 +13,7 @@
     "@lark-base-open/js-sdk": "latest"
   },
   "devDependencies": {
-    "@lark-base-open/cli": "^1.0.0",
+    "@lark-base-open/cli": "latest",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "typescript": "^4.9.0",
